@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    1 取值：
+    <input th:value="${hello}" />
+    <br />
+
+    2 循环：
+    <input th:each="str:${list}" th:value="${str}" />
+    <p th:each="str2:${list}">
+        <input th:value="${str2}" />
+    </p>
+    <br />
+
+    3 判断：
+    <input th:if="${1==1}" value="我是存在的" />
+    <input type="checkbox" th:checked="(${'1'==isChecked}?'checked':'false')" />
+    <br />
+
+    4 js：
+    <a th:href="'javascript:a(\''+${hb}+'\')'">点击有红包</a>
+
+    <script language="JavaScript">
+        function a(param) {
+            alert(param);
+        }
+    </script>
+
+    <br />
+    5 页面嵌套
+    <div th:include="testInner::a"></div>
+    <br />
+
+    6 其他
+    <select text="111111" value="我是存在的" ></select>
+    <p th:utext="${gname}">color</p>
+</body>
+</html>

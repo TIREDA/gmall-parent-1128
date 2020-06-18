@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
+        <module name="model" />
+        <module name="service-item" />
+        <module name="service-item-client" />
+        <module name="service-list" />
+        <module name="service-list-client" />
+        <module name="service-product" />
+        <module name="service-product-client" />
+        <module name="service-test" />
+        <module name="service-util" />
+        <module name="web-all" />
+        <module name="web-util" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="gmall-parent-1128" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-client" target="1.8" />
+      <module name="service-item" target="1.8" />
+      <module name="service-item-client" target="1.8" />
+      <module name="service-list" target="1.8" />
+      <module name="service-list-client" target="1.8" />
+      <module name="service-product" target="1.8" />
+      <module name="service-product-client" target="1.8" />
+      <module name="service-test" target="1.8" />
+      <module name="service-util" target="1.8" />
+      <module name="web" target="1.8" />
+      <module name="web-all" target="1.8" />
+      <module name="web-util" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

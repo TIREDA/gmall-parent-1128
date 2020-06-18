@@ -1,0 +1,5 @@
+
+spring.cloud.nacos.config.server-addr=192.168.200.128:8848
+spring.cloud.nacos.config.name=web-all
+spring.cloud.nacos.config.namespace=70554986-1cb4-44e0-ad52-58938a7db32a
+spring.application.name=web-all

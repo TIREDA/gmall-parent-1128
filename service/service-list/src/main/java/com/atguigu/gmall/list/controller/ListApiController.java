@@ -21,6 +21,11 @@ public class ListApiController {
     @Autowired
     SearchService searchService;
 
+    @RequestMapping("inner/incrHotScore/{skuId}")
+    void incrHotScore(@PathVariable("skuId") Long skuId){
+        searchService.incrHotScore(skuId);
+    }
+
     /**
      *
      * @return

@@ -13,6 +13,8 @@ import java.util.Map;
 @FeignClient(value = "service-list")
 public interface ListFileClient {
 
+
+
     @RequestMapping("api/list/inner/upperGoods/{skuId}")
     Result upperGoods(@PathVariable("skuId") Long skuId);
 
@@ -20,6 +22,10 @@ public interface ListFileClient {
     Result lowerGoods(@PathVariable("skuId") Long skuId);
 
 
+
     @RequestMapping("api/list/list")
     Result<Map> list(@RequestBody SearchParam searchParam);
+
+    @RequestMapping("api/list/inner/incrHotScore/{skuId}")
+    void incrHotScore(@PathVariable("skuId") Long skuId);
 }

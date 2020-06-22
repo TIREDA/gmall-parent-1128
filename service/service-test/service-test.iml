@@ -50,7 +50,7 @@
     <orderEntry type="library" name="Maven: net.bytebuddy:byte-buddy:1.10.2" level="project" />
     <orderEntry type="library" name="Maven: org.jodd:jodd-bean:5.0.10" level="project" />
     <orderEntry type="library" name="Maven: org.jodd:jodd-core:5.0.10" level="project" />
-    <orderEntry type="module" module-name="service-util" />
+    <orderEntry type="module" module-name="service-item" />
     <orderEntry type="module" module-name="common-util" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.2.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-json:2.2.1.RELEASE" level="project" />

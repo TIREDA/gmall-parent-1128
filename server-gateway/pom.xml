@@ -3,26 +3,33 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>service</artifactId>
+        <artifactId>gmall-parent</artifactId>
         <groupId>com.atguigu.gmall</groupId>
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>service-item</artifactId>
-
+    <artifactId>server-gateway</artifactId>
 
     <dependencies>
         <dependency>
             <groupId>com.atguigu.gmall</groupId>
-            <artifactId>service-product-client</artifactId>
+            <artifactId>common-util</artifactId>
             <version>1.0</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-web</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
+
         <dependency>
-            <groupId>com.atguigu.gmall</groupId>
-            <artifactId>service-list-client</artifactId>
-            <version>1.0</version>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
+
     </dependencies>
+
 
 </project>

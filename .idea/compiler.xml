@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="common-util" />
         <module name="model" />
+        <module name="server-gateway" />
         <module name="service-item" />
         <module name="service-item-client" />
         <module name="service-list" />
@@ -25,6 +26,7 @@
       <module name="common-util" target="1.8" />
       <module name="gmall-parent-1128" target="1.8" />
       <module name="model" target="1.8" />
+      <module name="server-gateway" target="1.8" />
       <module name="service" target="1.8" />
       <module name="service-client" target="1.8" />
       <module name="service-item" target="1.8" />

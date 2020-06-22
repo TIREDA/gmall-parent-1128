@@ -13,4 +13,5 @@ public interface SearchService{
 
     SearchResponseVo list(SearchParam searchParam);
 
+    void incrHotScore(Long skuId);
 }

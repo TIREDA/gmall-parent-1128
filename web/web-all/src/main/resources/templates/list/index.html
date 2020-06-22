@@ -100,29 +100,29 @@
 
         </div>
         <!--details-->
-        <!--<div class="details">-->
-            <!--<div class="sui-navbar">-->
-                <!--<div class="navbar-inner filter">-->
-                    <!--<ul class="sui-nav">-->
-                        <!--<li th:class="${orderMap.type == '1' ? 'active': ''}">-->
-                            <!--<a th:href="${urlParam}+'&order=1:'+${orderMap.sort == 'asc' ? 'desc' : 'asc'}">-->
-                                <!--综合<span th:if="${orderMap.type == '1'}" th:text="${orderMap.sort == 'asc' ? '↑' : '↓'}"></span>-->
-                            <!--</a>-->
-                        <!--</li>-->
-                        <!--<li th:class="${orderMap.type == '2' ? 'active': ''}">-->
-                            <!--<a th:href="${urlParam}+'&order=2:'+${orderMap.sort == 'asc' ? 'desc' : 'asc'}">-->
-                                <!--价格<span th:if="${orderMap.type == '2'}" th:text="${orderMap.sort == 'asc' ? '↑' : '↓'}"></span>-->
-                            <!--</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<a href="#">新品</a>-->
-                        <!--</li>-->
-                        <!--<li>-->
-                            <!--<a href="#">评价</a>-->
-                        <!--</li>-->
-                    <!--</ul>-->
-                <!--</div>-->
-            <!--</div>-->
+        <div class="details">
+            <div class="sui-navbar">
+                <div class="navbar-inner filter">
+                    <ul class="sui-nav">
+                        <li th:class="${orderMap?.type == '1' ? 'active': ''}">
+                            <a th:href="${urlParam}+'&order=1:'+${orderMap?.sort == 'asc' ? 'desc' : 'asc'}">
+                                综合<span th:if="${orderMap?.type == '1'}" th:text="${orderMap?.sort == 'asc' ? '↑' : '↓'}"></span>
+                            </a>
+                        </li>
+                        <li th:class="${orderMap?.type == '2' ? 'active': ''}">
+                            <a th:href="${urlParam}+'&order=2:'+${orderMap?.sort == 'asc' ? 'desc' : 'asc'}">
+                                价格<span th:if="${orderMap?.type == '2'}" th:text="${orderMap?.sort == 'asc' ? '↑' : '↓'}"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">新品</a>
+                        </li>
+                        <li>
+                            <a href="#">评价</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
             <div class="goods-list">
                 <ul class="yui3-g">
 

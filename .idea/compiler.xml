@@ -16,6 +16,7 @@
         <module name="service-product" />
         <module name="service-product-client" />
         <module name="service-test" />
+        <module name="service-user" />
         <module name="service-util" />
         <module name="web-all" />
         <module name="web-util" />
@@ -36,6 +37,7 @@
       <module name="service-product" target="1.8" />
       <module name="service-product-client" target="1.8" />
       <module name="service-test" target="1.8" />
+      <module name="service-user" target="1.8" />
       <module name="service-util" target="1.8" />
       <module name="web" target="1.8" />
       <module name="web-all" target="1.8" />
